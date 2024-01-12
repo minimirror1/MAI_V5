@@ -1,0 +1,18 @@
+diff a/MAI_V2/Core/Inc/main.h b/MAI_V2/Core/Inc/main.h	(rejected hunks)
+@@ -38,12 +38,12 @@
+ 
+ 
+ 
+-/*************자신에 RAM버퍼에 따라 수정******************/
+-#define CAN_Q_BUFF_SIZE 	512   //  ((헤더 4 Byte + 데이터 8 Byte) x 512(CAN_Q_BUFF_SIZE)) x 2(rx,tx) = 12,288 Byte
+-/*************자신에 RAM버퍼에 따라 수정******************/
++/*************?��?��?�� RAM버퍼?�� ?��?�� ?��?��******************/
++#define CAN_Q_BUFF_SIZE 	512   //  ((?��?�� 4 Byte + ?��?��?�� 8 Byte) x 512(CAN_Q_BUFF_SIZE)) x 2(rx,tx) = 12,288 Byte
++/*************?��?��?�� RAM버퍼?�� ?��?�� ?��?��******************/
+ 
+ // CAN 1개일 경우
+-#define CAN_1	0 // 네이밍 알아서 define
++#define CAN_1	0 // ?��?���? ?��?��?�� define
+ #define CAN_CNT 1
+ 
+ 
