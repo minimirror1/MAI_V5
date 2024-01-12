@@ -1,0 +1,3 @@
+[submodule "Component/cpp_Panasonic_Class"]
+	path = Component/cpp_Panasonic_Class
+	url = git@github.com:minimirror1/cpp_Panasonic_Class.git
